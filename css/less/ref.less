@@ -1,0 +1,42 @@
+// Variables
+// ------------------------------->
+// -- Colors
+@ui-white:                  #FFFFFF;
+@ui-gray:                   #DEDEDE;
+@ui-darkgray:               #333333;
+@spark-yellow:              #FEBF0F;
+// -- Sizes
+@container-width:           1140px;
+@section-padding:           32px;
+@section-height:            500px;
+@splash-letterhead-width:   680px;
+@navigation-height:         68px;
+@navigation-logo-hw:        60px;
+@navigation-font-height:    18px;
+@navigation-list-spacing:   60px;
+@ourteam-block-hw:          220px;
+@socialmedia-size:          64px;
+
+// Containers
+// ------------------------------->
+.container-full {
+  width: 100%;
+  margin: 0 auto; padding: 0;
+  position: relative;
+}
+
+.container {
+  width: @container-width;
+  margin: 0 auto; padding: 0;
+  position: relative;
+
+  @media only screen and (max-width: 1140px) {
+    width: 960px;
+  }
+}
+
+// Other
+// ------------------------------->
+.section-properties {
+  padding-top: @section-padding; padding-bottom: @section-padding;
+}

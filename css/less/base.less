@@ -1,0 +1,541 @@
+@import (less) "../libs/normalize.css";
+@import "ref";
+
+// Typography
+// ------------------------------->
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url('../fonts/ProximaNova/ProximaNova-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Light Italic';
+  src: url('../fonts/ProximaNova/ProximaNova-LightItalic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova/ProximaNova-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src: url('../fonts/ProximaNova/ProximaNova-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// General
+// ------------------------------->
+body {
+  font-family: 'Proxima Nova Light', 'Proxima Nova', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 32px; font-family: 'Proxima Nova Bold';
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 28px; font-family: 'Proxima Nova';
+}
+
+.blurb {
+  .container-full;
+  padding: 40px 0;
+  letter-spacing: 4px;
+  line-height: 32px;
+
+  section {
+    .container;
+    font-size: 24px; font-family: 'Proxima Nova Light Italic';
+    text-align: center;
+  }
+}
+
+.interested {
+
+}
+
+.grid {
+  width: 100%;
+  text-align: center;
+}
+
+// Splash
+// ------------------------------->
+#splash {
+  .container-full;
+  height: auto; // dynamically adjusted in JavaScript
+  background: url("../imgs/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  section {
+    .container;
+    .section-properties;
+
+    text-align: center;
+
+    h1 {
+      display: none;
+    }
+
+    #letterhead {
+      width: @splash-letterhead-width;
+      display: inline-block;
+    }
+  }
+}
+
+// Navigation
+// ------------------------------->
+#navigation {
+  .container-full;
+  height: @navigation-height;
+  top: 0;
+  position: absolute;
+  z-index: 10;
+  font-family: 'Proxima Nova';
+  letter-spacing: 4px;
+  background: black; color: white;
+//  border-bottom: 1px solid @spark-yellow;
+
+  section {
+    .container;
+
+    #navigation-list {
+      width: 100%;
+      margin: 0; padding: 0;
+      display: inline-block;
+      text-align: right;
+
+      * {
+        display: inline-block;
+        list-style: none;
+      }
+
+      #navigation-logo {
+        height: @navigation-logo-hw; width: @navigation-logo-hw;
+        margin-top: (@navigation-height - @navigation-logo-hw)/2;
+        float: left;
+        cursor: pointer;
+      }
+
+      li {
+        margin-left: @navigation-list-spacing;
+        text-transform: uppercase;
+        font-size: @navigation-font-height;
+        line-height: @navigation-height;
+        cursor: pointer;
+
+        &:hover {
+          color: @spark-yellow;
+        }
+      }
+    }
+  }
+}
+
+// Our Mission
+// ------------------------------->
+#ourmission {
+  .container-full;
+  height: @section-height;
+  background: url('../imgs/coding.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  section {
+    .container;
+    .section-properties;
+
+    * {
+      display: inline-block;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 4px;
+    }
+
+    div {
+      margin: @section-height/2 - 110px 0 0 0;
+      text-align: center;
+
+      h2 {
+        margin: 0; padding: 0;
+        text-transform: none; text-align: center;
+        display: inline;
+        font-family: 'Proxima Nova';
+        color: @spark-yellow;
+      }
+
+      p {
+        margin: 0; padding: 0;
+        text-align: center;
+        display: inline;
+        color: white;
+      }
+    }
+  }
+}
+
+// Events
+// ------------------------------->
+#events {
+  .container-full;
+  height: auto;
+  text-align: left;
+  font-size: 0;
+  background: white;
+
+  #date {
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    clear: both;
+  }
+
+  h2 {
+    margin: 0 0 32px 0;
+    clear: both;
+  }
+
+  section {
+    .container;
+    .section-properties;
+
+    #events-list, #events-content {
+      width: 50%;
+      margin: 0; padding: 0;
+      display: inline-block;
+      font-size: 16px;
+
+    }
+    #events-list {
+      list-style: none;
+      text-align: left;
+      vertical-align: top;
+
+      li {
+        width: 420px;
+        padding: 12px; margin-bottom: 28px;
+        text-align: center;
+        background: @spark-yellow;
+        div {
+          display: block;
+          text-transform: uppercase;
+        }
+        .event-title {
+          font-family: 'Proxima Nova Bold';
+          font-size: 28px;
+        }
+        .event-description {
+          font-size: 14px;
+        }
+      }
+    }
+    #events-content {
+      vertical-align: top;
+      text-align: center;
+
+
+      #highlight {
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+// Spark SC is
+// ------------------------------->
+#sparkscis {
+  background: @spark-yellow;
+}
+
+// Our Team
+// ------------------------------->
+.ourteam { // fix for blurb separation
+  .container-full;
+  height: auto;
+  margin-top: 20px;
+  background: white;
+
+  section {
+    .container;
+    .section-properties;
+    text-align: left;
+
+    h2 {
+      margin-bottom: 18px;
+    }
+
+    #sparkleaders {
+      text-align: center;
+      font-size: 0;
+
+      .profile {
+        width: @ourteam-block-hw; height: @ourteam-block-hw;
+        display: inline-block;
+        position: relative;
+
+        img {
+          width: 100%; height: 100%;
+          border: 0px solid white;
+        }
+
+        .profile-info {
+          height: 100%; width: 100%;
+          top: 0;
+          position: absolute;
+          background: rgba(0,0,0,.75);
+          color: white;
+          z-index: 5;
+          opacity: 0;
+
+          &:hover {
+            opacity: 100;
+          }
+
+          * {
+            display: block;
+            font-size: 16px;
+          }
+          .profile-name {
+            margin-top: 64px;
+            font-family: 'Proxima Nova Bold'; font-size: 20px;
+            text-transform: uppercase;
+          }
+
+          .profile-title {
+            margin-top: 70px;
+          }
+
+          .profile-email a {
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            * {
+              display: inline;
+            }
+          }
+        }
+
+        .profile-subtitle {
+          width: 100%; height: 40px;
+          bottom: 0;
+          position: absolute;
+          background: rgba(0,0,0,0.5);
+          z-index: 6;
+          div {
+            text-transform: uppercase;
+            font-family: 'Proxima Nova Bold'; font-size: 18px;
+            line-height: 40px;
+            letter-spacing: 1px;
+            vertical-align: middle;
+            color: white;
+          }
+        }
+      }
+      .profile-block { // TODO: differentiate w/ interested section
+        width: 3*@ourteam-block-hw; height: @ourteam-block-hw;
+        margin: 0; padding: 0;
+        display: inline-block;
+        position: relative;
+        background: @ui-darkgray;
+        font-size: 18px;
+
+        @media only screen and (max-width: 1140px) {
+          width: @ourteam-block-hw; height: @ourteam-block-hw;
+        }
+      }
+
+      .interested {
+        width: 100%; height: 100%;
+        top: 0;
+        position: absolute;
+
+        #interested-leader {
+          margin-top: 100px;
+          text-transform: uppercase;
+          font-family: 'Proxima Nova Bold';
+          letter-spacing: 1px;
+          line-height: 24px;
+          color: white;
+
+          a {
+            text-decoration: none;
+            color: @spark-yellow;
+          }
+
+          @media only screen and (max-width: 1140px) {
+            margin-top: 78px;
+          }
+        }
+      }
+    }
+
+    #sparkcouncil {
+      margin-bottom: 80px;
+      text-align: center;
+      font-size: 0;
+
+      .profile {
+        display: inline-block;
+
+        img {
+          padding: 20px;
+          width: @ourteam-block-hw - 40; height: auto;
+          border: 0px solid white;
+          vertical-align: middle;
+        }
+      }
+      .profile-block-3 {
+        width: 3*@ourteam-block-hw; height: @ourteam-block-hw;
+        display: inline-block;
+        background: @ui-gray;
+      }
+    }
+
+    #partner-list {
+      margin-bottom: 70px;
+      text-align: center;
+      list-style: none;
+
+      li {
+        margin-right: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 22px; font-family: 'Proxima Nova';
+        line-height: 56px;
+
+        a {
+          text-decoration: none;
+          color: black;
+
+          &:hover {
+            color: @spark-yellow;
+          }
+        }
+      }
+    }
+
+    #interested-council {
+
+    }
+  }
+}
+
+#ourteam2 {
+  h3 {
+    text-align: center;
+  }
+}
+
+// How Do We Work
+// ------------------------------->
+#howdowework {
+  margin-top: 20px;
+  background: none;
+
+  h3 {
+    width: auto;
+    margin: 0; padding: 0;
+    text-transform: none;
+    font-family: 'Proxima Nova Light Italic'; font-size: 36px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+
+// Contact
+// ------------------------------->
+#contact {
+  .container-full;
+  height: auto;
+  background: @spark-yellow; color: white;
+
+  section {
+    .container;
+    .section-properties;
+    text-align: center;
+
+    #icon-location {
+      width: 80px;
+    }
+
+    #talktous {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+
+    #hello {
+      margin-bottom: 42px;
+      text-transform: uppercase;
+      font-size: 36px;
+      letter-spacing: 2px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+
+    #wantupdates {
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+
+    #email {
+      margin-bottom: 20px;
+      font-size: 0;
+      * {
+        display: inline;
+      }
+
+      .email-form {
+        width: 340px;
+        padding: 10px;
+        border: none;
+        vertical-align: text-bottom;
+        font-size: 24px;
+        letter-spacing: normal;
+        color: black;
+      }
+
+      .email-submit {
+        height: 44px;
+        margin-left: 0px; padding: 0 22px;
+        border: 1px solid white;
+        vertical-align: text-bottom;
+        text-transform: uppercase;
+        font-size: 18px;
+        background: none;
+      }
+    }
+
+    .socialmedia {
+      width: @socialmedia-size; height: @socialmedia-size;
+      margin: 20px 20px;
+    }
+  }
+}
