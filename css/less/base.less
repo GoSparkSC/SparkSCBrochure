@@ -40,6 +40,9 @@
 
 // General
 // ------------------------------->
+html, body {
+  height: 100%;
+}
 body {
   font-family: 'Proxima Nova Light', 'Proxima Nova', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -81,7 +84,7 @@ h3 {
 #splash {
   .container-full;
   height: auto; // dynamically adjusted in JavaScript
-  background: url("../imgs/background.jpg");
+  background: url("../img/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,6 +151,9 @@ h3 {
           color: @spark-yellow;
         }
       }
+      .link-left {
+        margin: 0 !important;
+      }
     }
   }
 }
@@ -157,7 +163,7 @@ h3 {
 #ourmission {
   .container-full;
   height: @section-height;
-  background: url('../imgs/coding.jpg');
+  background: url('../img/coding.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -464,6 +470,36 @@ h3 {
   }
 }
 
+// TechLA
+// ------------------------------->
+.techla {
+  padding-bottom: 80px;
+  section {
+    .container;
+//    .section-properties;
+    text-align: center;
+
+    p {
+      padding-bottom: 20px;
+      font-size: 24px;
+      letter-spacing: 2px;
+      line-height: 36px;
+    }
+    a {
+      padding: 12px;
+      border: 2px solid @spark-yellow;
+      border-radius: 2px;
+      text-decoration: none; text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: @spark-yellow;
+    }
+  }
+}
+.skyline {
+  width: 100%;
+  min-width: 960px;
+}
 
 // Contact
 // ------------------------------->

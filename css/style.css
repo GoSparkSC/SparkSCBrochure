@@ -409,6 +409,10 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+html,
+body {
+  height: 100%;
+}
 body {
   font-family: 'Proxima Nova Light', 'Proxima Nova', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -455,7 +459,7 @@ h3 {
   padding: 0;
   position: relative;
   height: auto;
-  background: url("../imgs/background.jpg");
+  background: url("../img/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -534,13 +538,16 @@ h3 {
 #navigation section #navigation-list li:hover {
   color: #febf0f;
 }
+#navigation section #navigation-list .link-left {
+  margin: 0 !important;
+}
 #ourmission {
   width: 100%;
   margin: 0 auto;
   padding: 0;
   position: relative;
   height: 500px;
-  background: url('../imgs/coding.jpg');
+  background: url('../img/coding.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -847,6 +854,41 @@ h3 {
 }
 #howdowework p {
   font-size: 18px;
+}
+.techla {
+  padding-bottom: 80px;
+}
+.techla section {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+@media only screen and (max-width: 1140px) {
+  .techla section {
+    width: 960px;
+  }
+}
+.techla section p {
+  padding-bottom: 20px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 36px;
+}
+.techla section a {
+  padding: 12px;
+  border: 2px solid #febf0f;
+  border-radius: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #febf0f;
+}
+.skyline {
+  width: 100%;
+  min-width: 960px;
 }
 #contact {
   width: 100%;

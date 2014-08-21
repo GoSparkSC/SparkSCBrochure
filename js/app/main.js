@@ -34,6 +34,11 @@ define(function(require) {
         offset = 68;
         a.smoothscroll(elementid, link, offset);
 
+        elementid = 'techla';
+        link = elementid + '-link';
+        offset = 68;
+        a.smoothscroll(elementid, link, offset);
+
         elementid = 'contact';
         link = elementid + '-link';
         offset = 68;
