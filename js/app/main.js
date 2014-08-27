@@ -1,10 +1,10 @@
 define(function(require) {
     require(['jquery', 'fullscreen'], function($, fs) {
-//        var elementid = 'splash';
-//        fs.fitsize(elementid);
-//
-//        elementid = 'letterhead';
-//        fs.centeritem(elementid);
+        var elementid = 'splash';
+        fs.fitsize(elementid);
+
+        elementid = 'letterhead';
+        fs.centeritem(elementid);
     });
 
     require(['jquery', 'stickynav'], function($, sn) {
