@@ -1,4 +1,4 @@
-define(['require', 'jquery'], function(require, $) {
+define(['jquery'], function($) {
     function getElemHeight(name) {
         var element = document.getElementById(name),
             elemStyle = window.getComputedStyle(element, null),

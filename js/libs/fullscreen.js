@@ -1,14 +1,12 @@
-define(['require', 'jquery'], function(require, $) {
+define(['jquery'], function($) {
     function getHeight() {
-        var height = $(window).height();
-//        console.log('Viewport height: ' + height);
-        return height;
+        return $(window).height();
     }
 
-    function getWidth() {
-        var width = $(window).width();
-//        console.log('Viewport width: ' + width);
-        return width;
+    function getElemHeight(name) {
+        var element = document.getElementById(name),
+            elemStyle = window.getComputedStyle(element, null);
+        return parseInt(elemStyle.getPropertyValue('height').split("px")[0]);
     }
 
     function setHeight(elementid) {
@@ -17,44 +15,21 @@ define(['require', 'jquery'], function(require, $) {
         document.getElementById(elementid).style.minHeight = height + 'px';
     }
 
-    function setWidth(elementid) {
-        var width = getWidth();
-        document.getElementById(elementid).style.width = width + 'px';
-        document.getElementById(elementid).style.minWidth = width + 'px';
-    }
-
-    function vertCenter(elementid) {
+    function vertCenter(elementid, offset) {
+        offset = typeof offset !== 'undefined' ? offset : 32;
         var height = getHeight() - getElemHeight('navigation');
         var elemHeight = getElemHeight(elementid);
-        var position = height/2 - elemHeight/2;
+        var position = height/2 - elemHeight/2 - offset;
         document.getElementById(elementid).style.top = position + 'px';
         document.getElementById(elementid).style.marginTop = position + 'px';
-    }
-
-    function vertCenterOffset(elementid) {
-        var height = getHeight() - getElemHeight('navigation');
-        var elemHeight = getElemHeight(elementid);
-        var position = height/2 - elemHeight/2 - 32;
-        document.getElementById(elementid).style.top = position + 'px';
-        document.getElementById(elementid).style.marginTop = position + 'px';
-    }
-
-    function getElemHeight(name) {
-        var element = document.getElementById(name),
-            elemStyle = window.getComputedStyle(element, null),
-            elemHeight = parseInt(elemStyle.getPropertyValue('height').split("px")[0]);
-        return elemHeight;
     }
 
     return {
         fitsize: function(elementid) {
             setHeight(elementid);
-//            $(window).resize( function() {
-//                setHeight(elementid);
-//            })
         },
         centeritem: function(elementid) {
-            vertCenterOffset(elementid);
+            vertCenter(elementid);
         }
     }
 })

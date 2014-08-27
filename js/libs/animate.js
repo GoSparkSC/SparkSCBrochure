@@ -1,4 +1,4 @@
-define(['require', 'jquery'], function(require, $) {
+define(['jquery'], function($) {
     return {
         smoothscroll: function(elementid, link, offset) {
             $('#' + link).click(function() {
