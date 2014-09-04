@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2efef8ab-0f0c-4e33-a37e-d234525008d9" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/assets/background_example.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Adena Bauer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Calvin Legassick.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Christian Falstrup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Megan Park.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Michael Chang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Neel Bhoopalam.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/coreteam/fullres/Stephen Chen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/techla/skyline_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/app/main.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/base.less" afterPath="$PROJECT_DIR$/css/less/base.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/ref.less" afterPath="$PROJECT_DIR$/css/less/ref.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/libs/version_info.txt" afterPath="$PROJECT_DIR$/css/libs/version_info.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/libs/version_info.txt" afterPath="$PROJECT_DIR$/js/libs/version_info.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sparksc_brochure.iws" />
@@ -25,20 +42,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="83" selection-end="216" vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="804">
-              <folding />
+            <state line="133" column="34" selection-start="8980" selection-end="8980" vertical-scroll-proportion="2.601043" vertical-offset="0" max-vertical-offset="2640">
+              <folding>
+                <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +61,7 @@
       <file leaf-file-name="base.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="8745">
+            <state line="442" column="0" selection-start="8799" selection-end="9113" vertical-scroll-proportion="0.0" vertical-offset="6521" max-vertical-offset="8400">
               <folding />
             </state>
           </provider>
@@ -55,7 +70,43 @@
       <file leaf-file-name="ref.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/ref.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="1" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="705">
+            <state line="9" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="100" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="840">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/animate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="27" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullscreen.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/fullscreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="33" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="600">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stickynav.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/libs/stickynav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
@@ -74,14 +125,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/less/ref.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/libs/animate.js" />
         <option value="$PROJECT_DIR$/js/libs/stickynav.js" />
         <option value="$PROJECT_DIR$/js/libs/fullscreen.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/css/less/base.less" />
         <option value="$PROJECT_DIR$/js/app/main.js" />
+        <option value="$PROJECT_DIR$/js/libs/version_info.txt" />
+        <option value="$PROJECT_DIR$/css/libs/version_info.txt" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/css/less/ref.less" />
+        <option value="$PROJECT_DIR$/css/less/base.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -116,7 +170,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -159,12 +212,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparksc_brochure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparksc_brochure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparksc_brochure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sparksc_brochure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,18 +306,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -257,15 +347,99 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3360">
+        <state line="133" column="34" selection-start="8980" selection-end="8980" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2640">
+          <folding>
+            <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="442" column="0" selection-start="8799" selection-end="9113" vertical-scroll-proportion="0.0" vertical-offset="6521" max-vertical-offset="8400">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/main.js">
+    <entry file="file://$PROJECT_DIR$/css/less/ref.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="83" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="780">
+        <state line="9" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="660">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="100" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/animate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/fullscreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/stickynav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="52" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3360">
+          <folding>
+            <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="8745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/ref.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="1" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="52" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3360">
+          <folding>
+            <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -286,14 +460,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="52" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="291" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="780">
-          <folding />
+          <folding>
+            <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -314,7 +488,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="165" column="46" selection-start="11187" selection-end="11187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3360">
-          <folding />
+          <folding>
+            <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -325,56 +506,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/less/ref.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/animate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="131" selection-end="131" vertical-scroll-proportion="0.06944445" vertical-offset="0" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/stickynav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6018519" vertical-offset="0" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/libs/fullscreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.6481481" vertical-offset="0" max-vertical-offset="648" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="407" column="19" selection-start="8971" selection-end="8971" vertical-scroll-proportion="7.5932837" vertical-offset="0" max-vertical-offset="14565" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/libs/animate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="3360">
+        <state line="3" column="27" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/fullscreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="33" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/stickynav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/version_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="30" selection-end="30" vertical-scroll-proportion="0.023148147" vertical-offset="0" max-vertical-offset="648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/libs/version_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="100" selection-end="1453" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/less/ref.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/less/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="8745">
+        <state line="442" column="0" selection-start="8799" selection-end="9113" vertical-scroll-proportion="0.0" vertical-offset="6521" max-vertical-offset="8400">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="83" selection-end="216" vertical-scroll-proportion="0.03731343" vertical-offset="0" max-vertical-offset="804">
-          <folding />
+        <state line="133" column="34" selection-start="8980" selection-end="8980" vertical-scroll-proportion="2.601043" vertical-offset="0" max-vertical-offset="2640">
+          <folding>
+            <element signature="tag#section#7;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#section#8;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#2;n#section#0;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

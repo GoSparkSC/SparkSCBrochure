@@ -1,2 +1,2 @@
-require.js:             2.1.13
-jquery.js:              1.11.1
+require.js: 2.1.13
+jquery.js: 1.11.1

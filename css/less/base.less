@@ -1,36 +1,29 @@
 @import (less) "../libs/normalize.css";
 @import "ref";
 
-// Typography
-// ------------------------------->
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../font/FontName.eot');
-	    src: url('../font/FontName.eot?iefix') format('eot'),
-	         url('../font/FontName.woff') format('woff'),
-	         url('../font/FontName.ttf') format('truetype'),
-	         url('../font/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
+/* Typography */
+/* ===================================================== */
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url('../font/ProximaNova/ProximaNova-Light.otf');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Proxima Nova Light Italic';
   src: url('../font/ProximaNova/ProximaNova-LightItalic.otf');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Proxima Nova';
   src: url('../font/ProximaNova/ProximaNova-Regular.otf');
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Proxima Nova Bold';
   src: url('../font/ProximaNova/ProximaNova-Bold.otf');
@@ -38,33 +31,45 @@
   font-style: normal;
 }
 
-// General
-// ------------------------------->
+/* General */
+/* ===================================================== */
 html, body {
 //  height: 100%;
 }
+
 body {
   font-family: 'Proxima Nova Light', 'Proxima Nova', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
 }
 
 h2 {
-  text-transform: uppercase;
   font-size: 32px; font-family: 'Proxima Nova Bold';
 }
 
 h3 {
-  text-transform: uppercase;
   font-size: 28px; font-family: 'Proxima Nova';
 }
 
-.blurb {
+.outer-section {
   .container-full;
+  .section-properties;
+}
+
+.inner-section {
+  .container;
+  text-align: center;
+}
+
+.blurb {
   padding: 40px 0;
   letter-spacing: 4px;
   line-height: 32px;
 
   section {
-    .container;
     font-size: 24px; font-family: 'Proxima Nova Light Italic';
     text-align: center;
   }
@@ -80,9 +85,8 @@ h3 {
 }
 
 // Splash
-// ------------------------------->
+/* ===================================================== */
 #splash {
-  .container-full;
   height: auto; // dynamically adjusted in JavaScript
   background: url("../img/background.jpg");
   background-position: center;
@@ -90,9 +94,6 @@ h3 {
   background-repeat: no-repeat;
 
   section {
-    .container;
-    .section-properties;
-
     text-align: center;
 
     h1 {
@@ -100,16 +101,15 @@ h3 {
     }
 
     #letterhead {
-      width: @splash-letterhead-width;
+      width: 680px;
       display: inline-block;
     }
   }
 }
 
 // Navigation
-// ------------------------------->
+/* ===================================================== */
 #navigation {
-  .container-full;
   height: @navigation-height;
   bottom: 0;
   position: absolute;
@@ -120,8 +120,6 @@ h3 {
 //  border-bottom: 1px solid @spark-yellow;
 
   section {
-    .container;
-
     #navigation-list {
       width: 100%;
       margin: 0; padding: 0;
@@ -141,9 +139,9 @@ h3 {
       }
 
       li {
-        margin-left: @navigation-list-spacing;
+        margin-left: 60px;
         text-transform: uppercase;
-        font-size: @navigation-font-height;
+        font-size: 18px;
         line-height: @navigation-height;
         cursor: pointer;
 
@@ -159,9 +157,8 @@ h3 {
 }
 
 // Our Mission
-// ------------------------------->
+/* ===================================================== */
 #ourmission {
-  .container-full;
   height: @section-height;
   background: url('../img/coding.jpg');
   background-position: center;
@@ -169,8 +166,6 @@ h3 {
   background-repeat: no-repeat;
 
   section {
-    .container;
-    .section-properties;
 
     * {
       display: inline-block;
@@ -202,9 +197,8 @@ h3 {
 }
 
 // Events
-// ------------------------------->
+/* ===================================================== */
 #events {
-  .container-full;
   height: auto;
   text-align: left;
   font-size: 0;
@@ -223,9 +217,6 @@ h3 {
   }
 
   section {
-    .container;
-    .section-properties;
-
     #events-list, #events-content {
       width: 50%;
       margin: 0; padding: 0;
@@ -269,22 +260,19 @@ h3 {
 }
 
 // Spark SC is
-// ------------------------------->
+/* ===================================================== */
 #sparkscis {
   background: @spark-yellow;
 }
 
 // Our Team
-// ------------------------------->
+/* ===================================================== */
 .ourteam { // fix for blurb separation
-  .container-full;
   height: auto;
   margin-top: 20px;
   background: white;
 
   section {
-    .container;
-    .section-properties;
     text-align: left;
 
     h2 {
@@ -453,9 +441,9 @@ h3 {
   }
 }
 
-// How Do We Work
-// ------------------------------->
-#howdowework {
+/* How Do We Work */
+/* ===================================================== */
+.howdowework {
   margin-top: 20px;
   background: none;
 
@@ -470,108 +458,98 @@ h3 {
   }
 }
 
-// TechLA
-// ------------------------------->
+/* TechLA */
+/* ===================================================== */
 .techla {
-  padding-bottom: 80px;
+
   section {
-    .container;
-//    .section-properties;
-    text-align: center;
+    padding-top: 48px; padding-bottom: 48px;
 
     p {
-      padding-bottom: 20px;
       font-size: 24px;
       letter-spacing: 2px;
       line-height: 36px;
     }
     a {
       padding: 12px;
-      border: 2px solid @spark-yellow;
-      border-radius: 2px;
+      display: inline-block;
+      border: 2px solid @spark-yellow; border-radius: 2px;
       text-decoration: none; text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 2px;
       color: @spark-yellow;
+
+      &:hover {
+        background: @spark-yellow;
+        color: white;
+      }
     }
   }
 }
+
 .skyline {
   width: 100%;
   min-width: 960px;
 }
 
 // Contact
-// ------------------------------->
-#contact {
-  .container-full;
-  height: auto;
+/* ===================================================== */
+.contact {
   background: @spark-yellow; color: white;
+}
 
-  section {
-    .container;
-    .section-properties;
-    text-align: center;
+.icon-location {
+  width: 80px;
+}
 
-    #icon-location {
-      width: 80px;
-    }
+.talktous, .wantupdates {
+  margin-top: 0;
+  font-family: 'Proxima Nova Light' !important;
+  font-size: 24px;
+  font-weight: normal;
+}
 
-    #talktous {
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      font-size: 24px;
-    }
+.hello {
+  margin-bottom: 42px;
 
-    #hello {
-      margin-bottom: 42px;
-      text-transform: uppercase;
-      font-size: 36px;
-      letter-spacing: 2px;
-
-      a {
-        text-decoration: none;
-        color: white;
-      }
-    }
-
-    #wantupdates {
-      margin-bottom: 16px;
-      text-transform: uppercase;
-      font-size: 24px;
-    }
-
-    #email {
-      margin-bottom: 20px;
-      font-size: 0;
-      * {
-        display: inline;
-      }
-
-      .email-form {
-        width: 340px;
-        padding: 10px;
-        border: none;
-        vertical-align: text-bottom;
-        font-size: 24px;
-        letter-spacing: normal;
-        color: black;
-      }
-
-      .email-submit {
-        height: 44px;
-        margin-left: 0px; padding: 0 22px;
-        border: 1px solid white;
-        vertical-align: text-bottom;
-        text-transform: uppercase;
-        font-size: 18px;
-        background: none;
-      }
-    }
-
-    .socialmedia {
-      width: @socialmedia-size; height: @socialmedia-size;
-      margin: 20px 20px;
-    }
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: white;
   }
+}
+
+.signup {
+  margin-bottom: 20px;
+  font-size: 0;
+  * {
+    display: inline-block;
+  }
+
+  .email-form {
+    width: 340px;
+    padding: 10px;
+    border: none;
+    vertical-align: text-bottom;
+    font-size: 24px;
+    letter-spacing: normal;
+    color: black;
+  }
+
+  .email-submit {
+    height: 44px;
+    margin-left: 0px; padding: 0 22px;
+    border: 1px solid white;
+    vertical-align: text-bottom;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: none;
+  }
+}
+
+.socialmedia {
+  width: 64px; height: 64px;
+  margin: 20px 20px;
 }

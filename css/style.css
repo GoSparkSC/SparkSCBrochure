@@ -354,6 +354,12 @@ td,
 th {
   padding: 0;
 }
+/* Variables */
+/* ===================================================== */
+/* -- Colors -- */
+/* -- Sizes -- */
+/* Containers */
+/* ===================================================== */
 .container-full {
   width: 100%;
   margin: 0 auto;
@@ -361,30 +367,19 @@ th {
   position: relative;
 }
 .container {
-  width: 1140px;
+  width: 1024px;
   margin: 0 auto;
   padding: 0;
   position: relative;
 }
-@media only screen and (max-width: 1140px) {
-  .container {
-    width: 960px;
-  }
-}
+/* Other */
+/* ===================================================== */
 .section-properties {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../font/FontName.eot');
-	    src: url('../font/FontName.eot?iefix') format('eot'),
-	         url('../font/FontName.woff') format('woff'),
-	         url('../font/FontName.ttf') format('truetype'),
-	         url('../font/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
+/* Typography */
+/* ===================================================== */
 @font-face {
   font-family: 'Proxima Nova Light';
   src: url('../font/ProximaNova/ProximaNova-Light.otf');
@@ -409,51 +404,59 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+/* General */
+/* ===================================================== */
 body {
   font-family: 'Proxima Nova Light', 'Proxima Nova', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
 }
 h2 {
-  text-transform: uppercase;
   font-size: 32px;
   font-family: 'Proxima Nova Bold';
 }
 h3 {
-  text-transform: uppercase;
   font-size: 28px;
   font-family: 'Proxima Nova';
 }
-.blurb {
+.outer-section {
   width: 100%;
   margin: 0 auto;
   padding: 0;
   position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.inner-section {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+.blurb {
   padding: 40px 0;
   letter-spacing: 4px;
   line-height: 32px;
 }
 .blurb section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   font-size: 24px;
   font-family: 'Proxima Nova Light Italic';
   text-align: center;
-}
-@media only screen and (max-width: 1140px) {
-  .blurb section {
-    width: 960px;
-  }
 }
 .grid {
   width: 100%;
   text-align: center;
 }
+/* ===================================================== */
 #splash {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   height: auto;
   background: url("../img/background.jpg");
   background-position: center;
@@ -461,18 +464,7 @@ h3 {
   background-repeat: no-repeat;
 }
 #splash section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
   text-align: center;
-}
-@media only screen and (max-width: 1140px) {
-  #splash section {
-    width: 960px;
-  }
 }
 #splash section h1 {
   display: none;
@@ -481,11 +473,8 @@ h3 {
   width: 680px;
   display: inline-block;
 }
+/* ===================================================== */
 #navigation {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   height: 68px;
   bottom: 0;
   position: absolute;
@@ -494,17 +483,6 @@ h3 {
   letter-spacing: 4px;
   background: black;
   color: white;
-}
-#navigation section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-}
-@media only screen and (max-width: 1140px) {
-  #navigation section {
-    width: 960px;
-  }
 }
 #navigation section #navigation-list {
   width: 100%;
@@ -537,29 +515,13 @@ h3 {
 #navigation section #navigation-list .link-left {
   margin: 0 !important;
 }
+/* ===================================================== */
 #ourmission {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   height: 500px;
   background: url('../img/coding.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-#ourmission section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-@media only screen and (max-width: 1140px) {
-  #ourmission section {
-    width: 960px;
-  }
 }
 #ourmission section * {
   display: inline-block;
@@ -587,11 +549,8 @@ h3 {
   display: inline;
   color: white;
 }
+/* ===================================================== */
 #events {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   height: auto;
   text-align: left;
   font-size: 0;
@@ -606,19 +565,6 @@ h3 {
 #events h2 {
   margin: 0 0 32px 0;
   clear: both;
-}
-#events section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-@media only screen and (max-width: 1140px) {
-  #events section {
-    width: 960px;
-  }
 }
 #events section #events-list,
 #events section #events-content {
@@ -658,31 +604,18 @@ h3 {
 #events section #events-content #highlight {
   margin-top: 0px;
 }
+/* ===================================================== */
 #sparkscis {
   background: #febf0f;
 }
+/* ===================================================== */
 .ourteam {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
   height: auto;
   margin-top: 20px;
   background: white;
 }
 .ourteam section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
   text-align: left;
-}
-@media only screen and (max-width: 1140px) {
-  .ourteam section {
-    width: 960px;
-  }
 }
 .ourteam section h2 {
   margin-bottom: 18px;
@@ -836,11 +769,13 @@ h3 {
 #ourteam2 h3 {
   text-align: center;
 }
-#howdowework {
+/* How Do We Work */
+/* ===================================================== */
+.howdowework {
   margin-top: 20px;
   background: none;
 }
-#howdowework h3 {
+.howdowework h3 {
   width: auto;
   margin: 0;
   padding: 0;
@@ -848,32 +783,23 @@ h3 {
   font-family: 'Proxima Nova Light Italic';
   font-size: 36px;
 }
-#howdowework p {
+.howdowework p {
   font-size: 18px;
 }
-.techla {
-  padding-bottom: 80px;
-}
+/* TechLA */
+/* ===================================================== */
 .techla section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  text-align: center;
-}
-@media only screen and (max-width: 1140px) {
-  .techla section {
-    width: 960px;
-  }
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 .techla section p {
-  padding-bottom: 20px;
   font-size: 24px;
   letter-spacing: 2px;
   line-height: 36px;
 }
 .techla section a {
   padding: 12px;
+  display: inline-block;
   border: 2px solid #febf0f;
   border-radius: 2px;
   text-decoration: none;
@@ -882,64 +808,47 @@ h3 {
   letter-spacing: 2px;
   color: #febf0f;
 }
+.techla section a:hover {
+  background: #febf0f;
+  color: white;
+}
 .skyline {
   width: 100%;
   min-width: 960px;
 }
-#contact {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  height: auto;
+/* ===================================================== */
+.contact {
   background: #febf0f;
   color: white;
 }
-#contact section {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  text-align: center;
-}
-@media only screen and (max-width: 1140px) {
-  #contact section {
-    width: 960px;
-  }
-}
-#contact section #icon-location {
+.icon-location {
   width: 80px;
 }
-#contact section #talktous {
-  margin-bottom: 20px;
-  text-transform: uppercase;
+.talktous,
+.wantupdates {
+  margin-top: 0;
+  font-family: 'Proxima Nova Light' !important;
   font-size: 24px;
+  font-weight: normal;
 }
-#contact section #hello {
+.hello {
   margin-bottom: 42px;
+}
+.hello a {
+  text-decoration: none;
   text-transform: uppercase;
   font-size: 36px;
   letter-spacing: 2px;
-}
-#contact section #hello a {
-  text-decoration: none;
   color: white;
 }
-#contact section #wantupdates {
-  margin-bottom: 16px;
-  text-transform: uppercase;
-  font-size: 24px;
-}
-#contact section #email {
+.signup {
   margin-bottom: 20px;
   font-size: 0;
 }
-#contact section #email * {
-  display: inline;
+.signup * {
+  display: inline-block;
 }
-#contact section #email .email-form {
+.signup .email-form {
   width: 340px;
   padding: 10px;
   border: none;
@@ -948,7 +857,7 @@ h3 {
   letter-spacing: normal;
   color: black;
 }
-#contact section #email .email-submit {
+.signup .email-submit {
   height: 44px;
   margin-left: 0px;
   padding: 0 22px;
@@ -958,7 +867,7 @@ h3 {
   font-size: 18px;
   background: none;
 }
-#contact section .socialmedia {
+.socialmedia {
   width: 64px;
   height: 64px;
   margin: 20px 20px;
