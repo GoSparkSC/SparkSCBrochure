@@ -1,4 +1,11 @@
 define(function(require) {
+    require(['jquery'], function($) {
+        window.onscroll = function() {
+            var speed = 2.0;
+            $('#splash').css('background-position', "center " + (window.pageYOffset / speed) + "px");
+            console.log("Parallax scrolling...");
+        }
+    });
     require(['jquery', 'fullscreen'], function($, fs) {
         var elementid = 'splash';
         fs.fitsize(elementid);

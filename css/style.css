@@ -530,6 +530,11 @@ h3 {
   font-size: 18px;
   line-height: 68px;
   cursor: pointer;
+  -o-transition: .4s;
+  -ms-transition: .4s;
+  -moz-transition: .4s;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 #navigation section #navigation-list li:hover {
   color: #febf0f;
@@ -711,6 +716,11 @@ h3 {
   color: white;
   z-index: 5;
   opacity: 0;
+  -o-transition: .4s;
+  -ms-transition: .4s;
+  -moz-transition: .4s;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 .ourteam section #sparkleaders .profile .profile-info:hover {
   opacity: 100;
@@ -829,6 +839,11 @@ h3 {
 .ourteam section #partner-list li a {
   text-decoration: none;
   color: black;
+  -o-transition: .4s;
+  -ms-transition: .4s;
+  -moz-transition: .4s;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 .ourteam section #partner-list li a:hover {
   color: #febf0f;
