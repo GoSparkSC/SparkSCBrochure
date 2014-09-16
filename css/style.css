@@ -486,7 +486,7 @@ h3 {
   margin: 0 auto;
   padding: 0;
   position: relative;
-  height: 68px;
+  height: 64px;
   bottom: 0;
   position: absolute;
   z-index: 10;
@@ -518,8 +518,8 @@ h3 {
   list-style: none;
 }
 #navigation section #navigation-list #navigation-logo {
-  height: 60px;
-  width: 60px;
+  height: 56px;
+  width: 56px;
   margin-top: 4px;
   float: left;
   cursor: pointer;
@@ -528,7 +528,7 @@ h3 {
   margin-left: 60px;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 68px;
+  line-height: 64px;
   cursor: pointer;
   -o-transition: .4s;
   -ms-transition: .4s;
