@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="css/style.css">
     <script data-main="js/app.js" src="js/libs/require.js"></script>
 
+    <style>
+    /* Prevent the slideshow from flashing on load */
+    #slides {
+        display: none
+    }
+
+    /* Center the slideshow */
+    .container {
+        margin: 0 auto
+    }
+
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {
+        color:red;
+    }
+    </style>
+
     <!-- TODO: highlight navbar to show current section of the page -->
 </head>
 <body>
@@ -32,10 +49,20 @@
         </section>
     </nav>
     <section class="ourmission" id="ourmission">
+        <!--<section>-->
+            <!--<div><h2>Our mission</h2><p> is to inspire a culture of innovation, expose students to hands-on experiences, support current innovators with mentorship, and connect like-minded individuals within the community.</p></div>-->
+        <!--</section>-->
         <section>
-            <div><h2>Our mission</h2><p> is to inspire a culture of innovation, expose students to hands-on experiences, support current innovators with mentorship, and connect like-minded individuals within the community.</p></div>
+            <section id="slides">
+                <img src="http://placehold.it/940x528">
+                <img src="http://placehold.it/940x528">
+                <img src="http://placehold.it/940x528">
+                <img src="http://placehold.it/940x528">
+                <img src="http://placehold.it/940x528">
+            </section>
         </section>
     </section>
+
     <section class="events" id="events">
         <section>
             <div id="date">Fall 2014</div>
@@ -146,8 +173,9 @@
                     img/orgs/NOBE.png" alt="NOBE"></a></div>
                     <div class="profile"><a href="http://startupequinox.com/" target="_blank"><img src="
                     img/orgs/StartupEquinox.jpg" alt="Startup Equinox"></a></div>
-                    <div class="profile"><a href="http://designforamerica.com/" target="_blank"><img src="img/orgs/DFA.png" alt="Design For America"></a></div>
+                    <div class="profile"><a href="http://www.designforamericausc.com" target="_blank"><img src="img/orgs/DFA.png" alt="Design For America"></a></div>
                     <div class="profile"><a href="http://tommytalks.org/" target="_blank"><img src="img/orgs/TommyTalks.png" alt="Tommy Talks"></a></div>
+                    <div class="profile"><a href="http://usc3d4e.com/" target="_blank"><img src="img/orgs/3D4E.jpg" alt="3D4E"></a></div>
                 </div>
             </section>
             <h3>We Are Supported By</h3>
@@ -215,6 +243,18 @@
 
         ga('create', 'UA-48870049-1', 'sparksc.org');
         ga('send', 'pageview');
+    </script>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/libs/jquery.slides.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#slides").slidesjs({
+                width: 960,
+                height: 120
+            });
+        });
     </script>
 </body>
 </html>
